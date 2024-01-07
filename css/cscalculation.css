@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 115, 161);
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+ul li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+nav{
+    background-color: rgb(21, 25, 238);
+}
+
+.pokemon{
+    display: flex;
+}
+
+.pikachu{
+    margin-top: 100px;
+    float: left;
+    
+}
+
+.charmander{
+    margin-top: 130px;
+    margin-left: 80px;
+    float: left;
+}
+
+.hola{
+    margin-top: 160px;
+    float: right;
+}
+
+.pikachu:hover{
+    margin-top: 50px;
+    transition: all 1s;
+}
+
+.charmander:hover{
+    margin-top: 50px;
+    transition: all 1s;
+}
+
+.hola:hover{
+    margin-top: 50px;
+    transition: all 1.5s;
+}
+
+input{
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    padding-left: 30px;
+    border:0;
+    outline: none;
+}
+
+button{
+    background-color: rgb(116, 11, 11);
+    padding: 18px;
+    position: absolute;
+    border: 0;
+    top: 29px;
+    
+}
+
+.titulo_de_codigos{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 139, 115);
+}
+
+h2{
+    padding: 50px 50px 50px 50px;
+
+}
+
+.imagenes{
+    display: inline;
+}
+
+.imagenes2{
+    display: inline;
+}
